@@ -1,0 +1,114 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3;
+}
+
+
+header {
+    background-color: #004d40;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: #a7ffeb;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: #004d40;
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 30px;
+    background-color: #1de9b6;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.cta-button:hover {
+    background-color: #004d40;
+}
+
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e0f7fa;
+}
+
+.about img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.species {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.species-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.species-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.species-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
